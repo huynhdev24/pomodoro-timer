@@ -10,13 +10,13 @@ import {
 } from 'firebase/firestore';
 
 const firebaseConfig = {
-	apiKey: "AIzaSyABIpaFv5JOoNVKgS_JxbeDa2EMRjl5hP8",
-	authDomain: "pomodoro-timer-firebase.firebaseapp.com",
-	projectId: "pomodoro-timer-firebase",
-	storageBucket: "pomodoro-timer-firebase.appspot.com",
-	messagingSenderId: "477402221129",
-	appId: "1:477402221129:web:a2636fcb5b52a16b5b4d98",
-	measurementId: "G-51BWM87RTK"
+	apiKey: process.env.apiKey,
+	authDomain: process.env.authDomain,
+	projectId: process.env.projectId,
+	storageBucket: process.env.storageBucket,
+	messagingSenderId: process.env.messagingSenderId,
+	appId: process.env.appId,
+	measurementId: process.env.measurementId
 };
 
 // Initialize Firebase
