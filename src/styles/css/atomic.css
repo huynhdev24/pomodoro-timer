@@ -1,0 +1,74 @@
+/* Reset css */
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: 'Mali', cursive;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+@media only screen and (max-width: 910px) {
+	html {
+		font-size: 12px;
+	}
+}
+
+/* Atomic css */
+.d-none {
+	display: none !important;
+}
+
+.wh-100 {
+	width: 100%;
+	height: 100%;
+}
+
+.h-100 {
+	height: 100%;
+}
+
+.w-100 {
+	width: 100%;
+}
+
+/* Flex box */
+.d-flex {
+	display: flex;
+}
+
+.flex-center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.flex-center-ver {
+	display: flex;
+	align-items: center;
+}
+
+.flex-col {
+	flex-direction: column;
+}
+
+.flex-center-between {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.flex-grow-1 {
+	flex-grow: 1;
+}
+
+.disabled {
+	pointer-events: none;
+	opacity: 0.55;
+}
